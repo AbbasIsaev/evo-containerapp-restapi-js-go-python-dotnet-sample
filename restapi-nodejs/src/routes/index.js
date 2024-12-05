@@ -5,7 +5,7 @@ const productController = require("../controllers/ProductController");
 // Root/Index Routes
 router.get("/", function (req, res, next) {
   res.json({
-    message: "Доступны пути latest2: /products, /result",
+    message: "Доступны пути V3: /products, /result",
   });
 });
 
