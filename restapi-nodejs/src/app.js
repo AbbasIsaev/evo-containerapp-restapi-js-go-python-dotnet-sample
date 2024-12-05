@@ -5,6 +5,7 @@ var logger = require("morgan");
 var router = require("./routes/index");
 const appPort = process.env.APP_PORT || 3000;
 var app = express();
+console.log(process.env);
 
 //enable cors
 app.use(function (req, res, next) {
