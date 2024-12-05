@@ -12,4 +12,11 @@ router.get("/", function (req, res, next) {
 // get products
 router.get("/products", productController.index);
 
+router.get("/result", function (req, res, next) {
+  res.json({
+    status: "success",
+    message: "Тестирование CICD",
+  });
+});
+
 module.exports = router;
